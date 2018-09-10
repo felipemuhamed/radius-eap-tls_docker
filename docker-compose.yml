@@ -1,0 +1,12 @@
+version: '2'
+services:
+
+ freeradius:
+  image: "felipe/freeradius_eap"
+  ports:
+   - "1812:1812/udp"
+   - "1813:1813"
+   - "18120:18120"
+  volumes:
+   - "./clients.conf:/etc/raddb/clients.conf"
+   - "./users:/etc/raddb/users"

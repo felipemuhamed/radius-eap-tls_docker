@@ -1,0 +1,3 @@
+testing Cleartext-Password := "password", MS-CHAP-Use-NTLM-Auth := 0
+mensagem Cleartext-Password := "pass12", MS-CHAP-Use-NTLM-Auth := 0
+killer Cleartext-Password := "killkill", MS-CHAP-Use-NTLM-Auth := 0
